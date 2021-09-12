@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A59AB7"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/asala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/asala"
+            android:padding="16dp"
+            android:text="أصاله" />
+
+        <TextView
+            android:id="@+id/mohammad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/mohammad"
+            android:padding="16dp"
+            android:text="محمد حمائي" />
+
+        <TextView
+            android:id="@+id/asy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/asy"
+            android:padding="16dp"
+            android:text="عاصي الحلاني" />
+
+        <TextView
+            android:id="@+id/shereen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/shereen"
+            android:padding="16dp"
+            android:text="شيرين" />
+
+    </LinearLayout>
+</ScrollView>

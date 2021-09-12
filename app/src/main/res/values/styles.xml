@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#893FA9</item>
+        <item name="colorPrimaryDark">#7C3BA2</item>
+        <item name="colorAccent">#9B55B9</item>
+        <item name="colorButtonNormal">#893FA9</item>
+    </style>
+
+    <style name="song_list_textView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
